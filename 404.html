@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow">
+<title>The AiGovOps Foundation has moved</title>
+<script>
+(function(){
+  var prefix = "/aigovops-foundation/";
+  var path = location.pathname;
+  var rest = path.indexOf(prefix) === 0 ? path.slice(prefix.length) : path.replace(/^\/+/, "");
+  if (!/^[A-Za-z0-9._\/-]*$/.test(rest) || rest.indexOf("..") !== -1) rest = "";
+  location.replace("https://www.aigovops-foundation.com/" + rest + location.search + location.hash);
+})();
+</script>
+</head>
+<body>
+<p>This page has moved to
+  <a href="https://www.aigovops-foundation.com/">www.aigovops-foundation.com</a>.
+</p>
+</body>
+</html>

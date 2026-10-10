@@ -1,3 +1,6 @@
+> **This repository is archived.** The Foundation's current home is
+> [www.aigovops-foundation.com](https://www.aigovops-foundation.com/).
+
 # AiGovOps Foundation
 
 > **Governance that ships with code, not after it ships.**
@@ -5,7 +8,7 @@
 Open-source rebuild of [aigovopsfoundation.org](https://www.aigovopsfoundation.org/) using only Google AI tools — and published as a free, public GitHub Pages site.
 
 ## Live site
-https://bobrapp.github.io/aigovops-foundation/
+https://aigovops-foundation.github.io/aigovops-foundation/
 
 ## Built entirely with Google AI tools
 | Tool | Role |
