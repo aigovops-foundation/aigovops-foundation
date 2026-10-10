@@ -10,7 +10,12 @@
   var prefix = "/aigovops-foundation/";
   var path = location.pathname;
   var rest = path.indexOf(prefix) === 0 ? path.slice(prefix.length) : path.replace(/^\/+/, "");
-  if (!/^[A-Za-z0-9._\/-]*$/.test(rest) || rest.indexOf("..") !== -1) rest = "";
+  if (!/^[A-Za-z0-9.%_\/-]*$/.test(rest)) rest = "";
+  try {
+    if (decodeURIComponent(rest).indexOf("..") !== -1) rest = "";
+  } catch {
+    rest = "";
+  }
   location.replace("https://www.aigovops-foundation.com/" + rest + location.search + location.hash);
 })();
 </script>
